@@ -1,3 +1,4 @@
+//kelas vii smp 7 bekasi//dibuat oleh Alfa
 // tombol menu
 const navbarNav = document.querySelector(".navbar-nav");
 // click untuk meng-active-kan tobol menu
@@ -68,4 +69,5 @@ window.onclick = (e) => {
   if (e.target === itemDetailModal) {
     itemDetailModal.style.display = 'none';
   }
+
 };
